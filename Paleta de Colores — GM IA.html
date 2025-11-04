@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paleta GM IA</title>
+<style>
+  body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #fff;
+    color: #111;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #B13F01;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 14px;
+    margin-top: 15px;
+  }
+  .color-box {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+  .swatch {
+    height: 80px;
+  }
+  .info {
+    padding: 10px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .category {
+    font-size: 12px;
+    color: #6b7280;
+  }
+  .code {
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: 6px;
+    background: #f8fafc;
+    padding: 2px 6px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+<h1>🎨 Paleta de Colores GM IA</h1>
+
+<h2>Primarios</h2>
+<div class="grid">
+  <div class="color-box"><div class="swatch" style="background:#F15D27"></div><div class="info"><div class="name">primary</div><div class="category">Primario</div><div class="code">#F15D27</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#B13F01"></div><div class="info"><div class="name">primaryDark</div><div class="category">Primario oscuro</div><div class="code">#B13F01</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#FF8A50"></div><div class="info"><div class="name">primaryLight</div><div class="category">Primario claro</div><div class="code">#FF8A50</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#FFF3E0"></div><div class="info"><div class="name">primaryContainer</div><div class="category">Contenedor claro</div><div class="code">#FFF3E0</div></div></div>
+</div>
+
+<h2>Secundarios</h2>
+<div class="grid">
+  <div class="color-box"><div class="swatch" style="background:#6B7280"></div><div class="info"><div class="name">secondary</div><div class="category">Secundario</div><div class="code">#6B7280</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#374151"></div><div class="info"><div class="name">secondaryDark</div><div class="category">Secundario oscuro</div><div class="code">#374151</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#9CA3AF"></div><div class="info"><div class="name">secondaryLight</div><div class="category">Secundario claro</div><div class="code">#9CA3AF</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#F9FAFB"></div><div class="info"><div class="name">secondaryContainer</div><div class="category">Contenedor gris claro</div><div class="code">#F9FAFB</div></div></div>
+</div>
+
+<h2>Superficies claras</h2>
+<div class="grid">
+  <div class="color-box"><div class="swatch" style="background:#FFFFFF"></div><div class="info"><div class="name">surface</div><div class="category">Superficie</div><div class="code">#FFFFFF</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#F8FAFC"></div><div class="info"><div class="name">surfaceVariant</div><div class="category">Variante</div><div class="code">#F8FAFC</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#E2E8F0"></div><div class="info"><div class="name">surfaceContainerHighest</div><div class="category">Más alto</div><div class="code">#E2E8F0</div></div></div>
+</div>
+
+<h2>Modo oscuro cálido</h2>
+<div class="grid">
+  <div class="color-box"><div class="swatch" style="background:#1A1611"></div><div class="info"><div class="name">surfaceDark</div><div class="category">Superficie oscura</div><div class="code">#1A1611</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#352E22"></div><div class="info"><div class="name">surfaceContainerDark</div><div class="category">Contenedor</div><div class="code">#352E22</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#FAF8F5"></div><div class="info"><div class="name">onSurfaceDark</div><div class="category">Texto</div><div class="code">#FAF8F5</div></div></div>
+</div>
+
+<h2>Fondos</h2>
+<div class="grid">
+  <div class="color-box"><div class="swatch" style="background:#FEFEFE"></div><div class="info"><div class="name">background</div><div class="category">Fondo claro</div><div class="code">#FEFEFE</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#0F0D0A"></div><div class="info"><div class="name">backgroundDark</div><div class="category">Fondo oscuro cálido</div><div class="code">#0F0D0A</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#0F172A"></div><div class="info"><div class="name">onBackground</div><div class="category">Texto sobre fondo claro</div><div class="code">#0F172A</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#FAF8F5"></div><div class="info"><div class="name">onBackgroundDark</div><div class="category">Texto sobre fondo oscuro</div><div class="code">#FAF8F5</div></div></div>
+</div>
+
+<h2>IA / Marca</h2>
+<div class="grid">
+  <div class="color-box"><div class="swatch" style="background:#FF6B35"></div><div class="info"><div class="name">aiAccent</div><div class="category">Acento IA</div><div class="code">#FF6B35</div></div></div>
+  <div class="color-box"><div class="swatch" style="background:#847764"></div><div class="info"><div class="name">aiSecondary</div><div class="category">Secundario IA</div><div class="code">#847764</div></div></div>
+</div>
+
+</body>
+</html>
